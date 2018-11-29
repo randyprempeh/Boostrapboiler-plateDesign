@@ -1,0 +1,206 @@
+  /**
+  * Contents
+  *
+  *   1. Imports
+  *   2. Starter Template
+  */
+
+/* 1. Imports
+-------------------------------------------*/
+
+@import "bootstrap-custom";
+@import "~bootstrap/scss/bootstrap";
+
+$fa-font-path: "~font-awesome/fonts";
+@import '~font-awesome/scss/font-awesome.scss';
+@import 'partials/header';
+@import url('https://fonts.googleapis.com/css?family=Chau+Philomene+One');
+
+/* 2. Starter Template
+-------------------------------------------*/
+
+body {
+  background-color: rgb(202, 199, 173); 
+  padding-top: 5rem;
+  font-family: 'Chau Philomene One', sans-serif;
+}
+
+.container {
+            height: 800px;
+            position: relative;
+            box-shadow: 10px 25px 13px #888888;
+
+           
+}
+.navbar {
+         padding: 50px;
+
+}
+.fa.fa-ge {
+  transition: transform .2s ease;  
+  
+}
+.fa.fa-ge:hover {
+                transform: scale(1.5);
+                background-color: rgba(228, 228, 90, 0.918);
+                border-radius: 50%;
+              
+
+}
+.fa.fa-align-justify {
+    
+              background-color:rgb(39, 39, 87);
+              border-radius: 50%;
+              padding: 8px;
+              transition: transform .2s ease;
+}
+
+.fa.fa-align-justify:hover{
+                     background-color:rgb(160, 211, 240);
+                     cursor: pointer;
+                     transform: scale(1.5);
+                     transform: rotate(360deg);
+}
+.row .row-mini h6 {
+            padding: 50px;
+            color: rgba(236, 150, 29, 0.979);
+            opacity: 0.5;
+            letter-spacing: 1px; 
+            font-size: 15px;
+}
+.row-small {
+           padding: 50px;
+
+           
+}
+.col-md-6 p {
+            font-size: 10px;
+            letter-spacing: 2px;
+   
+}
+h6 {
+  font-size: 10px;
+  color: gray;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.row.row-max h1 {
+         padding-left: 50px;
+         color: rgb(63, 34, 109);
+         font-size: 120px;
+         letter-spacing: 3px; 
+         line-height: 1;
+}
+
+.row.row-icons {
+         padding-left: 70px;  
+}
+.fa.fa-play  {
+            
+            position: absolute; 
+            background-color: rgba(228, 228, 90, 0.918);
+            border-radius: 50%;
+            padding: 20px;
+            bottom: -3px;
+      
+}
+.fa.fa-play:hover {
+                   zoom: 1.2;
+                   transform: scale(1.2);
+}
+
+.col-md-3 h5 {
+            color: rgb(63, 34, 109);
+            font-weight: 400;
+            letter-spacing: 2px;
+}
+h5:hover {
+                 zoom: 1.2;
+                 color: black;
+              
+}
+.col-md-7.fan h6 {
+  padding-left: 230px;
+  color: rgb(133, 124, 124);
+  font-size: 13px;
+  opacity: 0.8;
+          
+}
+.col-md-7.fan h6:hover {
+    color: rgba(0, 0, 0, 0.87);
+    cursor: pointer;
+    font-size: 17px;
+    
+
+}
+
+.col-md-8.left-card {
+  height: 800px;
+  background-color: rgb(236, 236, 236);
+
+}
+
+.col-md-4.right-card {
+  height: 800px;
+  background: url(/spiral.png) top no-repeat, url(/blk.jpg) center no-repeat, ;
+  background-size: 120px, cover;
+
+  
+
+ 
+}
+.col-md-6.intro {
+     padding: 60px 30px 30px 30px;
+}
+.intro h5 {
+         font-size: 15px;
+         color: rgb(63, 34, 109);
+         letter-spacing:1px;
+         opacity:  0.6;
+}
+
+.intro small {
+            font-size: 10px; 
+            padding-left: 70px;
+            color: gray;
+} 
+.row.row-block {
+           background-color: rgb(160, 211, 240);
+           margin-top: 425px;
+           height: 240px;
+           padding: 50px;
+    
+}
+.col-md-7.new {
+     font-size: 10px; 
+     color: rgba(60, 92, 124, 0.822);
+     opacity: 0.5;
+}
+.plus {
+  padding-left: 75px; 
+               
+}
+.plus:hover {
+           transform: scale(1.2);
+           
+           cursor: pointer;
+          
+         
+}
+.col-md-7.price p {
+                 letter-spacing: 2px;
+                 padding-left:  15px;
+}  
+ 
+.arrows {
+             color: rgba(60, 92, 124, 0.822);
+             opacity: 0.5;
+             padding-left: 30px;
+             
+}
+.arrows:hover {           
+               transform: scale(1);
+               zoom: 1.2;
+              
+    
+}
